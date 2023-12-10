@@ -1,0 +1,63 @@
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    height: 100%;
+}
+
+div {
+    border: 2px solid burlywood;
+    margin: 10px;
+}
+
+#introPic {
+    float: center;
+}
+
+#bio {
+    margin: 0%;
+    list-style-position: inside;
+}
+#bio > li {
+    padding: 2px;
+}
+
+#pro {
+    width: auto;
+}
+
+#achievements {
+    list-style-position: inside;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 370px) {
+    body {
+        font-size: 16px;
+    }
+    img {
+        padding-top: 10%;
+        width: 80%;
+        height: auto;
+    }
+    #bio {
+        padding: 2%;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    div {
+        width: 80;
+    }
+}
