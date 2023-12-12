@@ -302,8 +302,8 @@ const TodoList = [
     completed: true
   }
 ];
-const UserThree = TodoList.filter(user => user.userId === 3);
+let UserThree = TodoList.filter(user => user.userId === 3);
 console.log(UserThree);
 
-const Incomplete = UserThree.filter(task => task.completed === false);
-console.log(Incomplete);
+let Incomplete = UserThree.filter(task => task.completed === false);
+console.log(Incomplete.length);
